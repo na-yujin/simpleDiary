@@ -2,7 +2,7 @@ import './App.css';
 import DiaryEditor from "./DiaryEditor";
 import DiaryList from "./DiaryList";
 import {useMemo, useEffect, useRef, useState} from "react";
-import OptimizeTest from "./OptimizeTest";
+// import OptimizeTest from "./OptimizeTest";
 // import Lifecycle from "./Lifecycle";
 
 // https://jsonplaceholder.typicode.com/comments
@@ -75,7 +75,7 @@ function App() {
 
   return (
     <div className="App">
-      <OptimizeTest />
+      {/*<OptimizeTest />*/}
       {/*<Lifecycle />*/}
       <DiaryEditor onCreate={onCreate} />
       <div>전체 일기 : {data.length}</div>
